@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Racing</title>
+    <style>
+    @keyframes cars {
+        0% {
+            
+            transform: translateX(600px);
+        }
+
+    }
+
+   
+
+
+    * {
+        margin: 10px;
+    }
+    .car{
+        border: solid 5px rgb(233, 110, 10);
+        width: 830px;
+        background-color:gray;
+    }
+
+    .car1 img {
+        border-radius: 10%;
+        
+        box-shadow: 0px 0px 10px 10px white;
+        animation: cars 1s linear alternate-reverse infinite;
+    }
+
+    .car2 img {
+        border-radius: 40%;
+        box-shadow: 0px 0px 10px 10px white;
+        animation: cars 1s  ease-out alternate-reverse infinite;
+
+
+    }
+
+    .car3 img {
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 10px white;
+        animation: cars 1s ease-in-out alternate-reverse infinite;
+
+    }
+</style>
+</head>
+<body>
+    <div class="car">
+        <div class="car1">
+            <img src="car1.jpeg" width="200px">
+        </div><hr><hr>
+        <div class="car2">
+            <img src="car3.jpg" width="200px">
+        </div>
+        <hr><hr>
+        <div class="car3">
+            <img src="car2.jpg" width="200px">
+        </div>
+</body>
+</html>
